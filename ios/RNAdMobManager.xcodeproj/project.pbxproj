@@ -13,6 +13,8 @@
 		A962C2531CB27DBD00E508A1 /* RNAdMobInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = A962C2521CB27DBD00E508A1 /* RNAdMobInterstitial.m */; };
 		A96DA7841C146DA600FC639B /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96DA7811C146DA600FC639B /* BannerView.m */; };
 		A96DA7851C146DA600FC639B /* RNAdMobManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A96DA7831C146DA600FC639B /* RNAdMobManager.m */; };
+		AAB771051EC0EBF40090BD2C /* RNAdMobNativeExpressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB771021EC0EBF40090BD2C /* RNAdMobNativeExpressManager.m */; };
+		AAB771061EC0EBF40090BD2C /* RNAdMobNativeExpressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB771041EC0EBF40090BD2C /* RNAdMobNativeExpressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,10 @@
 		A96DA7811C146DA600FC639B /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = SOURCE_ROOT; };
 		A96DA7821C146DA600FC639B /* RNAdMobManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdMobManager.h; sourceTree = SOURCE_ROOT; };
 		A96DA7831C146DA600FC639B /* RNAdMobManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAdMobManager.m; sourceTree = SOURCE_ROOT; };
+		AAB771011EC0EBF40090BD2C /* RNAdMobNativeExpressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdMobNativeExpressManager.h; sourceTree = SOURCE_ROOT; };
+		AAB771021EC0EBF40090BD2C /* RNAdMobNativeExpressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAdMobNativeExpressManager.m; sourceTree = SOURCE_ROOT; };
+		AAB771031EC0EBF40090BD2C /* RNAdMobNativeExpressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdMobNativeExpressView.h; sourceTree = SOURCE_ROOT; };
+		AAB771041EC0EBF40090BD2C /* RNAdMobNativeExpressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAdMobNativeExpressView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,10 @@
 		A96DA7761C146D7200FC639B /* RNAdMobManager */ = {
 			isa = PBXGroup;
 			children = (
+				AAB771011EC0EBF40090BD2C /* RNAdMobNativeExpressManager.h */,
+				AAB771021EC0EBF40090BD2C /* RNAdMobNativeExpressManager.m */,
+				AAB771031EC0EBF40090BD2C /* RNAdMobNativeExpressView.h */,
+				AAB771041EC0EBF40090BD2C /* RNAdMobNativeExpressView.m */,
 				0CB8C04C1D9143A6002BC3EF /* RNAdMobDFPManager.h */,
 				0CB8C04D1D9143A6002BC3EF /* RNAdMobDFPManager.m */,
 				A96DA7801C146DA600FC639B /* BannerView.h */,
@@ -152,6 +162,8 @@
 				A96DA7841C146DA600FC639B /* BannerView.m in Sources */,
 				A96DA7851C146DA600FC639B /* RNAdMobManager.m in Sources */,
 				0CB8C04E1D9143A6002BC3EF /* RNAdMobDFPManager.m in Sources */,
+				AAB771051EC0EBF40090BD2C /* RNAdMobNativeExpressManager.m in Sources */,
+				AAB771061EC0EBF40090BD2C /* RNAdMobNativeExpressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
